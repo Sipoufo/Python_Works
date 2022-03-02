@@ -28,7 +28,6 @@ while not good_color:
     for color in colors:
         if user_color == color:
             good_color = True
-            
 if good_color:
     while not is_race_on:
         for turtle_t in all_turtle:
